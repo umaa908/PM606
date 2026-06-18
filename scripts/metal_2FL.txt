@@ -1,0 +1,33 @@
+SCHEME SAMPLESIZE
+GENOMICCONTROL OFF
+AVERAGEFREQ ON
+MINMAXFREQ ON
+OUTFILE results/metal_2FL.tbl
+
+MARKER SNP
+ALLELE A1 A2
+EFFECT b
+PVALUE p 
+WEIGHT N
+FREQLABEL Freq
+PROCESS data/milk/milk_2FL_clean.mlma
+
+MARKER rs_id
+ALLELE effect_allele other_allele
+EFFECT beta
+PVALUE p_value 
+WEIGHT n
+FREQLABEL effect_allele_frequency
+PROCESS data/child/child_2FL_hg38_cleaned.tsv
+
+MARKER ID
+ALLELE ALT REF
+EFFECT BETA
+PVALUE P
+WEIGHT N
+FREQLABEL A1_FREQ
+PROCESS data/lifeline/lifeline.2FL.hg38.cleaned.tsv
+
+ANALYZE
+
+QUIT
