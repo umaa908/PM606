@@ -1,0 +1,47 @@
+#!/bin/bash
+
+#SBATCH --account=kelseyj3_1714
+#SBATCH --partition=main
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+#SBATCH --time=3:30:00
+
+for HMO in $(cat data/child/child_hmo_list.txt); do
+
+cat > ${HMO}.child_milk.metal << EOF
+
+SCHEME STDERR
+GENOMICCONTROL OFF
+AVERAGEFREQ ON
+MINMAXFREQ ON
+
+MARKER SNP
+ALLELE A1 A2
+EFFECT b
+PVALUE p 
+WEIGHT N
+FREQLABEL Freq
+STDERR se
+PROCESS data/milk/milk_${HMO}_clean.mlma
+
+MARKER rs_id
+ALLELE effect_allele other_allele
+EFFECT beta
+PVALUE p_value 
+WEIGHT n
+FREQLABEL effect_allele_frequency
+STDERR standard_error
+PROCESS data/child/child_${HMO}_hg38_cleaned.tsv
+
+OUTFILE results/metal_${HMO}_child_milk .tbl
+
+ANALYZE HETEROGENEITY
+
+QUIT
+EOF
+
+/home1/umaagarw/software/generic-metal/metal ${HMO}.child_milk.metal
+
+done
