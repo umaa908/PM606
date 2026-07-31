@@ -1,4 +1,9 @@
-Project Overview:
+# Meta-analysis of Human Milk Oligosaccharide GWAS
+
+This repository contains the analysis code developed for my PM 606 Master's practicum project investigating the genetic determinants of human milk oligosaccharide (HMO) composition through meta-analysis of genome-wide association study (GWAS) summary statistics.
+
+
+## Project Overview:
 
 Genome-wide association study (GWAS) summary statistics from the MILK (n = 540), CHILD (n = 980), and Lifelines NEXT (n = 524) cohorts were harmonized and meta-analyzed using METAL to identify genetic determinants of HMO composition.
 
@@ -13,17 +18,28 @@ The analysis includes:
 - Downstream visualization and result summarization in R
 
 
-Results: https://umaa908.github.io/PM606/final
+## Repository Structure
+
+```
+├── metal/                # METAL scripts and configuration files
+├── scripts/              # R and shell scripts
+├── results/              # Generated tables and figures
+└── README.md
+```
 
 
-Implications:
+## Results: 
+https://umaa908.github.io/PM606/final
+
+
+## Implications:
 
 In total, eight loci were associated with HMO composition, including three putatively novel associations. 
 
 These findings demonstrate that meta-analysis increases statistical power to identify genetic variants influencing HMO composition and provide candidate loci for future functional investigation.
 
 
-Limitations:
+## Limitations:
 
 Identified associations are statistical and do not establish causal relationships or identify the underlying causal variants or genes.
 
@@ -33,7 +49,7 @@ Differences in cohort characteristics, sample sizes, and phenotype measurement p
 
 
 
-Reproducibility:
+## Reproducibility:
 
 The GWAS summary statistics used in this project originate from multiple independent cohorts and are subject to data-sharing restrictions. Consequently, the raw input data cannot be made publicly available through this repository.
 
@@ -42,7 +58,7 @@ Because the original summary statistics are unavailable, the complete analysis c
 Researchers with access to comparable GWAS summary statistics should be able to adapt the workflow to their own data.
 
 
-References:
+## References:
 
 1.	Kellman, Benjamin P et al. “Elucidating Human Milk Oligosaccharide biosynthetic genes through network-based multi-omics integration.” Nature communications vol. 13,1 2455. 4 May. 2022, doi:10.1038/s41467-022-29867-4
 
@@ -61,4 +77,16 @@ References:
 8.	Fang, Chao et al. “Unveiling Genetic Markers for Milk Yield in Xinjiang Donkeys: A Genome-Wide Association Study and Kompetitive Allele-Specific PCR-Based Approach.” International journal of molecular sciences vol. 26,7 2961. 25 Mar. 2025, doi:10.3390/ijms26072961
 
 9.	Arun, Sondur J et al. “Targeted Analysis Reveals an Important Role of JAK-STAT-SOCS Genes for Milk Production Traits in Australian Dairy Cattle.” Frontiers in genetics vol. 6 342. 15 Dec. 2015, doi:10.3389/fgene.2015.00342
+
+
+## Contact
+
+Uma Agarwal
+
+umaagarw@usc.edu
+
+University of Southern California
+
+Mentor: Kelsey Johnson, PhD
+
 
