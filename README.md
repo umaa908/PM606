@@ -54,9 +54,11 @@ References:
 
 5.	Willer, Cristen J et al. “METAL: fast and efficient meta-analysis of genomewide association scans.” Bioinformatics (Oxford, England) vol. 26,17 (2010): 2190-1. doi:10.1093/bioinformatics/btq340
 
-6.	Qiu, M., Gao, Z., Tian, M. et al. LIMCH1 inhibits antitumor immunity by upregulating PDL1 in triple-negative breast cancer. Cell Commun Signal 23, 419 (2025). https://doi.org/10.1186/s12964-025-02387-6
+6.	Hinrichs AS, Karolchik D, Baertsch R, Barber GP, Bejerano G, Clawson H, Diekhans M, Furey TS, Harte RA, Hsu F et al. The UCSC Genome Browser Database: update 2006. Nucleic Acids Res. 2006 Jan 1;34(Database issue):D590-8.
 
-7.	Fang, Chao et al. “Unveiling Genetic Markers for Milk Yield in Xinjiang Donkeys: A Genome-Wide Association Study and Kompetitive Allele-Specific PCR-Based Approach.” International journal of molecular sciences vol. 26,7 2961. 25 Mar. 2025, doi:10.3390/ijms26072961
+7.	Qiu, M., Gao, Z., Tian, M. et al. LIMCH1 inhibits antitumor immunity by upregulating PDL1 in triple-negative breast cancer. Cell Commun Signal 23, 419 (2025). https://doi.org/10.1186/s12964-025-02387-6
 
-8.	Arun, Sondur J et al. “Targeted Analysis Reveals an Important Role of JAK-STAT-SOCS Genes for Milk Production Traits in Australian Dairy Cattle.” Frontiers in genetics vol. 6 342. 15 Dec. 2015, doi:10.3389/fgene.2015.00342
+8.	Fang, Chao et al. “Unveiling Genetic Markers for Milk Yield in Xinjiang Donkeys: A Genome-Wide Association Study and Kompetitive Allele-Specific PCR-Based Approach.” International journal of molecular sciences vol. 26,7 2961. 25 Mar. 2025, doi:10.3390/ijms26072961
+
+9.	Arun, Sondur J et al. “Targeted Analysis Reveals an Important Role of JAK-STAT-SOCS Genes for Milk Production Traits in Australian Dairy Cattle.” Frontiers in genetics vol. 6 342. 15 Dec. 2015, doi:10.3389/fgene.2015.00342
 
